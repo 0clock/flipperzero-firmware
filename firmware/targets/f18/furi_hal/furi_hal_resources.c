@@ -7,15 +7,19 @@
 
 #define TAG "FuriHalResources"
 
+
+//下面定义了用到的引脚
 const GpioPin gpio_swdio = {.port = GPIOA, .pin = LL_GPIO_PIN_13};
 const GpioPin gpio_swclk = {.port = GPIOA, .pin = LL_GPIO_PIN_14};
 
 const GpioPin gpio_vibro = {.port = GPIOA, .pin = LL_GPIO_PIN_8};
 const GpioPin gpio_ibutton = {.port = GPIOB, .pin = LL_GPIO_PIN_14};
 
+//屏幕的引脚
 const GpioPin gpio_display_cs = {.port = GPIOC, .pin = LL_GPIO_PIN_11};
 const GpioPin gpio_display_rst_n = {.port = GPIOB, .pin = LL_GPIO_PIN_0};
 const GpioPin gpio_display_di = {.port = GPIOB, .pin = LL_GPIO_PIN_1};
+
 const GpioPin gpio_sdcard_cs = {.port = GPIOC, .pin = LL_GPIO_PIN_12};
 const GpioPin gpio_sdcard_cd = {.port = GPIOC, .pin = LL_GPIO_PIN_10};
 

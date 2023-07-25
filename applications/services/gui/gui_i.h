@@ -18,7 +18,7 @@
 #include "view_port.h"
 #include "view_port_i.h"
 
-#define GUI_DISPLAY_WIDTH 128
+#define GUI_DISPLAY_WIDTH 128//这里是屏幕GUI分辨率
 #define GUI_DISPLAY_HEIGHT 64
 
 #define GUI_STATUS_BAR_X 0
